@@ -1,0 +1,225 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+}
+
+.background-green {
+    background-color: #2E948A;
+}
+
+.letter-green {
+    color: #009688;
+}
+
+.background-pink {
+    background-color: #FF4081;
+}
+
+.letter-pink {
+    color: #FF4081;
+}
+
+.background-gray {
+    background-color: #F7F7F7;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+header {
+    padding: 10px 60px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#banner-logo {
+    padding: 60px;
+}
+
+#text {
+    width: 300px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.button-white-pink {
+    text-decoration: none;
+    border: #FF4081 1px solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#banner-course {
+    padding: 60px;
+}
+
+.banner-cursos {
+    width: 300px;
+    text-align: center;
+}
+
+.banner-cursos img {
+    width: auto;
+    height: 300px;
+}
+
+#sobre-nos {
+    padding: 60px;
+    flex-direction: column;
+}
+
+#sobre-nos p {
+    width: 400px;
+    margin: 30px;
+}
+
+.retangulo {
+    width: 250px;
+    height: 150px;
+    background-color: #C4C4C4;
+}
+
+#conteudo {
+    padding: 60px;
+}
+
+.content {
+    width: 250px;
+    margin: 30px 0;
+}
+
+#conteudo nav {
+    text-align: center;
+}
+
+footer {
+    padding: 10px 60px;
+}
+
+footer nav {
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.border {
+    border: solid 1px white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+    #sobre-nos {
+        align-items: center;
+        text-align: center;
+    }
+
+    #sobre-nos div {
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #banner-course {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #banner-course article {
+        margin: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    #banner-logo div {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #conteudo {
+        text-align: center;
+    }
+
+    #conteudo div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #sobre-nos article {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin-right: -150px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #banner-logo img {
+        width: 250px;
+        height: auto;
+    }
+}
